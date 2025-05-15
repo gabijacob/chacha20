@@ -20,11 +20,12 @@ Chacha20 encrypts data using 20 rounds of QR, which is a function that mixes the
 
 To run this code, you need to have Rust installed.
 After installing Rust, clone the repository and navigate to the project directory:
-
 ```chacha20```
 
 To run the code, simply execute:
+
 ```cargo run --release```
 
 To run the tests, use the following command:
+
 ```cargo test --release```
