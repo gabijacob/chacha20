@@ -15,3 +15,16 @@ ChaCha20 is a stream cipher widely used in modern cryptographic systems due to i
 ## Encryption
 
 Chacha20 encrypts data using 20 rounds of QR, which is a function that mixes the input data, using as base functions: add, xor, and rotate.
+
+## Usage
+
+To run this code, you need to have Rust installed.
+After installing Rust, clone the repository and navigate to the project directory:
+
+```chacha20```
+
+To run the code, simply execute:
+```cargo run --release```
+
+To run the tests, use the following command:
+```cargo test --release```
