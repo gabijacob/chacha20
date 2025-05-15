@@ -6,12 +6,12 @@ A pure Rust implementation of the ChaCha20 stream cipher, a modern encryption al
 
 ChaCha20 is a stream cipher widely used in modern cryptographic systems due to its speed and resistance to timing attacks.
 
-## 🚀 Key Functions
+## Key Functions
 
 - ROTL: Rotate left operation.
 - QR: Quarter round function.
 - CHACHA_BLOCK: the encryption function, which receives cleartext and applies the ChaCha20 algorithm to a block of data, returning the ciphertext.
 
-## 📦 Encryption
+## Encryption
 
 Chacha20 encrypts data using 20 rounds of QR, which is a function that mixes the input data, using as base functions: add, xor, and rotate.
