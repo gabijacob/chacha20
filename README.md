@@ -22,7 +22,7 @@ To run this code, you need to have Rust installed.
 After installing Rust, clone the repository and navigate to the project directory:
 ```chacha20```
 
-To run the code, simply execute:
+To run the code (execute main), simply execute:
 
 ```cargo run --release```
 
