@@ -1,8 +1,8 @@
-# ChaCha20 in Rust
+# 🔒 ChaCha20 in Rust
 
 A pure Rust implementation of the ChaCha20 stream cipher, a modern encryption algorithm designed for both performance and security.
 
-## 🔒 What is ChaCha20?
+## What is ChaCha20?
 
 ChaCha20 is a stream cipher widely used in modern cryptographic systems due to its speed and resistance to timing attacks.
 
