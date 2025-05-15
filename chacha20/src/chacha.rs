@@ -27,7 +27,7 @@ pub fn qr(a: &mut u32, b: &mut u32, c: &mut u32, d: &mut u32) {
 
 const ROUNDS : usize = 20;
 
-pub fn chacha_bloco(out: &mut [u32; 16], key: &[u32; 8], counter: &[u32; 2], nonce: &[u32; 2]) {
+pub fn chacha_block(out: &mut [u32; 16], key: &[u32; 8], counter: &[u32; 2], nonce: &[u32; 2]) {
     let mut state: [u32; 16] = [0; 16];
     let mut x: [u32; 16] = [0; 16];
 
